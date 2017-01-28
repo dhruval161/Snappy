@@ -8,7 +8,7 @@ html, body {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-body{
+body.homepage{
   background-image: url("bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,5 +44,95 @@ body{
 }
 button:hover{
   background-color: rgb(250, 30, 30);
+  font-weight: 600;
+}
+
+/*
+    Chat page
+*/
+.members{
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  width: 30%;
+  background-color: rgb(212, 65, 56);
+  color: white;
+  padding: 1px;
+}
+.messages{
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 30%;
+  width: 70%;
+
+}
+.user-info{
+  margin-top: 5px;
+  color: rgb(75, 51, 51);
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  //font-family: 'Slabo 27px', serif;
+
+}
+.logout{
+  float: right;
+}
+.mem{
+  margin-top: 10px;
+}
+.m1{
+  padding: 10px;
+  border-bottom: solid 1px rgb(162, 11, 11);
+}
+.m1:hover{
+  background-color: white;
+  color:  rgb(212, 65, 56);
+}
+
+.m1.active{
   font-weight: bold;
+
+}
+.chat-info{
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+  border-bottom: solid 1px black;
+    background-color: white;
+}
+.mes{
+  height: 100%;
+  background-color: rgb(233, 190, 190);
+  padding: 10px;
+  overflow: auto;
+
+}
+.m{
+  background: white;
+  margin: 10px;
+  margin-top: 0px;
+  padding: 5px 10px;
+  width: 600px;
+  border-radius: 10px;
+}
+.m.me{
+  background-color: rgb(152, 236, 113);
+}
+
+.write{
+  background-color: white;
+  position: fixed;
+  left: 30%;
+  bottom :0;
+  width: 70%;
+  padding: 10px;
+}
+.w{
+  padding: 10px;
+  border-radius: 4px ;
+  display: block;
+  width: 100%;
+  border: solid 1px lightgrey;
 }
