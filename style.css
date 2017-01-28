@@ -103,11 +103,11 @@ button:hover{
     background-color: white;
 }
 .mes{
-  height: 100%;
+  height: 83%;
   background-color: rgb(233, 190, 190);
   padding: 10px;
   overflow: auto;
-
+  margin-bottom: 50px;
 }
 .m{
   background: white;
